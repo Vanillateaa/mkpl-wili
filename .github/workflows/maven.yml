@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Java CI with Maven
+name: Java CI with Maven?
 
 on:
   push:
@@ -37,4 +37,4 @@ jobs:
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-      run: mvn -B verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=akunmkepl -Dsonar.projectKey=akunmkepl_continuous_inspection
+      run: mvn -B verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=vanillateaa -Dsonar.projectKey=Vanillateaa_mkpl-wili
